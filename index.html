@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Store</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="bg-white p-3">
+      <nav class="flex justify-between items-center">
+        <div>
+         <img src="travel-cart-logo-design-travel-shop-logo-design-template-free-vector.jpg" alt="" class="max-w-[150px]">
+        </div>
+        <div class="hidden md:flex gap-5">
+          <a href="#" class="text-lg font-medium text-blue-900">CONTACT US</a>
+          <a href="#" class="text-lg font-medium text-blue-900">OUR PRODUCT</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div
+          class="hero-section bg-blue-100 p-10 flex flex-col gap-5 justify-center items-center h-[60vh]"
+        >
+          <h1 class="text-center font-bold text-blue-600 text-5xl">
+            SHOP WITH SHUDDY
+          </h1>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eum
+            neque id soluta incidunt ducimus, <br />excepturi illo praesentium
+            enim accusantium!dolor sit amet, consectetur <br />adipisicing elit.
+            Aut eum neque id soluta incidunt ducimus, excepturi illo praesentium
+            enim accusantium!
+          </p>
+        </div>
+      </section>
+      <section>
+        <div class="flex items-center justify-center mt-5">
+          <form action="" class="w-full flex gap-2 justify-center">
+            <input
+              type="search"
+              placeholder="Search products"
+              class="border border-gray-200 px-4 py-2 rounded-lg md:w-[350px] shadow-md outline-none"
+            />
+            <button
+              type="submit"
+              for="input"
+              class="submit-btn bg-blue-600 text-white font-medium px-4 py-2 rounded-lg cursor-pointer"
+            >
+              Search
+            </button>
+          </form>
+        </div>
+      </section>
+      <div
+        class="empty flex justify-center h-[40vh] w-[300px] bg-blue-100 mx-auto mt-5 p-5"
+      >
+        <h1 class="text-red-700">This Product is not available!</h1>
+      </div>
+      <section
+        class="products-section p-5 flex flex-wrap items-center justify-center gap-3"
+      ></section>
+    </main>
+    <footer class="flex justify-center items-center p-5 bg-blue-600">
+      <h1 class="text-lg font-medium text-white">
+        all rights reserved year © <span></span>
+      </h1>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
